@@ -19,22 +19,24 @@
 .body_content_1 {
     background-color: #fff;
     border-radius: 15px;
-    
+    padding: 10px;
     margin: 10px;
-    min-width: fit-content;
+    min-width: 90px;
     min-height: -webkit-fill-available;
 }
 .body_1 {
   display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   border: 1px;
-  overflow-x: auto;
+  
   overflow: scroll;
   font-size: 10px;
 
   
 }
-
+.body_1::-webkit-scrollbar{
+    display: none;
+}
 .body_content_heading {
 background-color: #fff;
     border-radius: 15px;

@@ -11,6 +11,7 @@ function MainComp() {
       <Header />
       <SearchBar />
       <Body />
+    
       <Footer />
     </div>
   );

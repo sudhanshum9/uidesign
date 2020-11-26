@@ -1,14 +1,10 @@
 .footer {
+    flex-shrink: 0;
     display: flex;
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color: white;
-    
-    justify-content: space-between;
-
-}
-
-.footer_in {
-    
-}
+    justify-content: space-between;    
+    height: 30px;
+}   
