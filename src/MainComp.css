@@ -1,6 +1,6 @@
 .root-container {
     min-height: 50%;
-    flex: 1 0 auto;
+    
     position: fixed;
     top: 30%;
     left: 50%;
@@ -9,21 +9,21 @@
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
     margin-left: -15em; /*set to a negative number 1/2 of your width*/
     border: 1px solid #ccc;
-    background-color: #d17979;
-    overflow: scroll;
-   
-    display: flex;
-  flex-direction: column;
+    background-color: #e0e0df;
+    
 
 }
 .root-container:after {
     
     display: block;
   }
-
-
-
-.root-container::-webkit-scrollbar{
+.main-container{
+  position: relative;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+}
+.main-container::-webkit-scrollbar{
     display: none;
 }
 

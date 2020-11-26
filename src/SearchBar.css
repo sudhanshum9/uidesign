@@ -1,14 +1,16 @@
 .searchbar{
     display:flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 24px;
     
 }
 
 .searchbar > input {
-    width: 105%;
+    
+    width: 88%;
     border-radius: 10px;
-    border: white 2px;
+    border: rgb(22, 216, 15) 2px;
     padding: 10px;
 }

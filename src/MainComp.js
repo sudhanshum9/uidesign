@@ -8,10 +8,12 @@ import SearchBar from './SearchBar'
 function MainComp() {
   return (
     <div className="root-container">
-      <Header />
+    <div className ='main-container'> 
+    <Header />
       <SearchBar />
       <Body />
-    
+
+      </div>
       <Footer />
     </div>
   );

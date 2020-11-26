@@ -3,22 +3,27 @@
     object-fit: contain;
     align-items: center;
     font-family: "adobe-clean", sans-serif;
+    margin-top: 30px;
     margin: 20px;
+    
 }
 .header_bell{
-    color: rgb(41, 209, 12);  
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: rgb(0, 0, 0);
     position: absolute;
-    top: 3%;
-    right: 3%;
+    top: 4%;
+    right: 4%;
 }
 
 
 .header_content > span{
-    font-size: 20px;
+    font-size: 24px;
     
 }
 .header_content > p{
-    font-size: 12px;
+    font-size: 15px;
     
 }
 .header_right{
@@ -32,7 +37,7 @@
 
 }
 .header_center{
-   width: 70%;
+   width: 60%;
 
 }
 .header__center > input {

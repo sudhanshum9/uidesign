@@ -12,12 +12,12 @@
   padding-top: 10px;
   padding-bottom: 15px;
   padding-right: 10px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-radius: 25px;
 }
 
 .body_content_1 {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     padding: 10px;
     margin: 10px;
@@ -30,7 +30,7 @@
   border: 1px;
   
   overflow: scroll;
-  font-size: 10px;
+  font-size: 11px;
 
   
 }
@@ -38,11 +38,24 @@
     display: none;
 }
 .body_content_heading {
-background-color: #fff;
+background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    display: flex;
-   
+    display: flex;   
     min-width: -moz-fit-content;
     min-width: fit-content;
     min-height: -webkit-fill-available;
 }
+
+.body_content_2 {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+  }
+
+  .body_circle{
+  
+
+  }
