@@ -1,14 +1,21 @@
 .root-container {
-   
+    min-height: 50%;
+
     position: fixed;
     top: 30%;
     left: 50%;
-    width:24%;
+    width:20%;
     height:65%;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
     margin-left: -15em; /*set to a negative number 1/2 of your width*/
     border: 1px solid #ccc;
     background-color: #f3f3f3;
+       
+    overflow: scroll;
+
+}
+.root-container::-webkit-scrollbar{
+    display: none;
 }
 
 .root-container:hover  {

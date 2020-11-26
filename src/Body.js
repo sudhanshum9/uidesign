@@ -21,37 +21,29 @@ function Body() {
           <h3>37/90</h3>
           <h3>Branches Visited</h3>
         </div>
-        <br></br>
-        <div className="body_content_1">
-          <h3>37/90</h3>
-          <h3>Branches Visited</h3>
-        </div>
-        <br></br>
-        <div className="body_content_1">
-          <h3>37/90</h3>
-          <h3>Branches Visited</h3>
-        </div>
-        <br></br>
-        <div className="body_content_1">
-          <h3>37/90</h3>
-          <h3>Branches Visited</h3>
-        </div>
-        <br></br>
-        <div className="body_content_1">
-          <h3>37/90</h3>
-          <h3>Branches Visited</h3>
-        </div>
-        <br></br>
-        <div className="body_content_1">
-          <h3>37/90</h3>
-          <h3>Branches Visited</h3>
-        </div>
-        <br></br>
+       
+        
+        
         <div className="body_content_1">
           <h3>24/50</h3>
           <h3>Banca branches visited</h3>
         </div>
+        <div className="body_content_1">
+          <h3>32/50</h3>
+          <h3>Leads converted</h3>
+        </div>
       </div>
+
+      <div className='body_2'>
+        <h2>Your Plans for</h2>
+        <div class="body_content_heading">
+        <h4>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yesterday &nbsp;&nbsp;
+          Today &nbsp;&nbsp; Tommorow
+        </h4>
+
+      </div>
+    </div>
     </div>
   );
 }

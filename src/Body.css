@@ -1,8 +1,8 @@
 .body {
   width: 80%; /* Can be in percentage also. */
   height: auto;
-  top: 30%;
-  margin: 20px 20px 20px 20px;
+  top: 25%;
+  margin: 20px 10px 20px 15px;
   padding: 20px 20px 20px 20px;
   display: block;
   position: absolute;
@@ -11,6 +11,7 @@
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 15px;
+  padding-right: 10px;
   background-color: #fff;
   border-radius: 25px;
 }
@@ -18,7 +19,7 @@
 .body_content_1 {
     background-color: #fff;
     border-radius: 15px;
-    display: flex;
+    
     margin: 10px;
     min-width: fit-content;
     min-height: -webkit-fill-available;
@@ -28,7 +29,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   border: 1px;
   overflow-x: auto;
+  overflow: scroll;
   font-size: 10px;
+
+  
 }
 
 .body_content_heading {

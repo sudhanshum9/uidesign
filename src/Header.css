@@ -1,18 +1,18 @@
-.header{
-    
-    position: absolute;
-    min-height: 150px;
-    
-
-}
-
-
-.header_content{
-    display: block;
-    position: absolute;
+.header{  
+    display: flex;
+    object-fit: contain;
+    align-items: center;
     font-family: "adobe-clean", sans-serif;
     margin: 20px;
 }
+.header_bell{
+    color: rgb(41, 209, 12);  
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+
 .header_content > span{
     font-size: 20px;
     
@@ -32,9 +32,11 @@
 
 }
 .header_center{
-   
+   width: 70%;
 
 }
 .header__center > input {
-    border-radius: 25px
+    border-radius: 5px;
+    
+   
 }

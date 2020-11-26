@@ -7,6 +7,7 @@ import BarChartIcon from '@material-ui/icons/BarChart';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 function Footer() {
     return (
+        <div className='footer_div' >
         <div className = 'footer'>
         
             < HomeIcon />
@@ -15,6 +16,7 @@ function Footer() {
             <BarChartIcon />
             <MoreHorizIcon />
             
+        </div>
         </div>
     )
 }
