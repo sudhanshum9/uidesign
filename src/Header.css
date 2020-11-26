@@ -1,0 +1,40 @@
+.header{
+    
+    position: absolute;
+    min-height: 150px;
+    
+
+}
+
+
+.header_content{
+    display: block;
+    position: absolute;
+    font-family: "adobe-clean", sans-serif;
+    margin: 20px;
+}
+.header_content > span{
+    font-size: 20px;
+    
+}
+.header_content > p{
+    font-size: 12px;
+    
+}
+.header_right{
+    display: block;
+    position: relative;
+    padding: 10px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 15px;
+
+
+}
+.header_center{
+   
+
+}
+.header__center > input {
+    border-radius: 25px
+}

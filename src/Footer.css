@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    
+    justify-content: space-between;
+
+}
+
+.footer_in {
+    
+}
